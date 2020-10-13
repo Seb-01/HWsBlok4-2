@@ -76,6 +76,8 @@ STATICFILES_DIRS = [
 ]
 
 BUS_STATION_CSV = os.path.join(BASE_DIR, 'data-398-2018-08-30.csv')
+# кол-во одновременно выводимых строк на странице
+ROWS_IN_INDEXPAGE = 10
 
 SECRET_KEY = 'put your secret here'
 DEBUG = True
